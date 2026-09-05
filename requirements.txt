@@ -7,3 +7,4 @@ sentence-transformers>=3.0,<6.0
 pytest>=8.0,<10.0
 torch 
 matplotlib
+seaborn
