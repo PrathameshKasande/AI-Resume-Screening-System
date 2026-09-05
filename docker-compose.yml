@@ -1,0 +1,12 @@
+services:
+
+  resume-screening:
+
+    build: .
+
+    container_name: ai-resume-screening
+
+    ports:
+      - "8501:8501"
+
+    restart: unless-stopped

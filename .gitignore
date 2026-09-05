@@ -1,0 +1,36 @@
+venv/
+.venv/
+
+__pycache__/
+*.py[cod]
+*.pyc
+
+.pytest_cache/
+
+.env
+.streamlit/secrets.toml
+
+.vscode/
+
+.DS_Store
+
+*.log
+
+data/resumes/*.pdf
+
+data/evaluation/
+
+# IDE
+.vscode/
+.idea/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+
+# Evaluation generated results
+data/evaluation/results/
+
+# Optional local uploaded resumes
+data/resumes/

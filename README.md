@@ -1,5 +1,3 @@
-# AI-Resume-Screening-System
-
 # 🤖 AI Resume Screening System
 
 An **NLP and Machine Learning based Resume Screening System** that automatically compares a candidate's resume with a manually provided Job Description (JD), calculates a resume-job match score, identifies matched and missing skills, and provides an easy-to-understand screening result through an interactive Streamlit dashboard.
