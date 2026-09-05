@@ -1,6 +1,6 @@
 #adds candidate-name extraction
 import re
-import pymupdf
+import fitz
 
 
 def extract_text_from_pdf(file):
