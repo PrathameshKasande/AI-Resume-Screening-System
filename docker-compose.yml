@@ -4,7 +4,7 @@ services:
 
     build: .
 
-    container_name: ai-resume-screening
+    container_name: ai-resume-screening-system
 
     ports:
       - "8501:8501"
