@@ -1081,7 +1081,9 @@ If you want to make the project open source, an MIT License can be added to the 
 
 If this project helped you understand practical **NLP, Machine Learning, resume screening, semantic similarity, skill extraction, evaluation, Streamlit, and Docker**, consider giving the repository a ⭐ on GitHub.
 
----
+
+Live Link : 
+https://ai-resume-screening-system-8vyqqy3gpx8oabomxs2wve.streamlit.app/
 
 ## 👤 Author
 **Prathamesh Kasande**
