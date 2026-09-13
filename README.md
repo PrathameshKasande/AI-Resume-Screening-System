@@ -32,15 +32,15 @@ The main objective is to build an **AI-assisted resume screening system** that c
 
  ⭐ Key Features
 
-### 📄 Resume Upload
+ 1) 📄 Resume Upload
 
 Users can upload a resume in PDF format directly from their local device.
 
-### 📝 Manual Job Description Input
+2) 📝 Manual Job Description Input
 
 Users can copy and paste a Job Description directly into the application instead of uploading a JD file.
 
-### 🧹 NLP Text Preprocessing
+3) 🧹 NLP Text Preprocessing
 
 The system performs basic text cleaning including:
 
@@ -50,21 +50,21 @@ The system performs basic text cleaning including:
 
 The preprocessing pipeline converts text into a normalized form before matching.
 
-### 🔍 Skill Extraction
+4) 🔍 Skill Extraction
 
 The system extracts skills from both the resume and Job Description and compares them to determine skill coverage.
 
 The skill matching calculation measures the percentage of JD-required skills found in the candidate resume.
 
-### 🧠 Semantic Similarity
+5) 🧠 Semantic Similarity
 
 The system uses the **Sentence Transformers *`all-MiniLM-L6-v2`* model** to generate sentence embeddings and calculate semantic similarity between the resume and JD.
 
-### 📊 TF-IDF Similarity
+6) 📊 TF-IDF Similarity
 
 TF-IDF vectors are compared using cosine similarity to measure textual similarity between the resume and Job Description.
 
-### 🎯 Hybrid Resume Matching
+7) 🎯 Hybrid Resume Matching
 
 The final score combines three signals:
 
@@ -102,11 +102,12 @@ Skill Gap
 
 This allows a candidate or recruiter to understand which required skills are present and which are missing.
 
-### 💡 Explainable Screening Result
+ 
+ 💡 Explainable Screening Result :
 
 The application provides an explanation of the candidate's screening result rather than displaying only a numerical score.
 
-### 📈 Interactive Dashboard
+ 📈 Interactive Dashboard : 
 
 The Streamlit interface presents:
 
@@ -120,7 +121,7 @@ The Streamlit interface presents:
 * Skill gap information
 
 
-# 🏗️ System Architecture
+ 🏗️ System Architecture :
 
 ```text
                      USER
@@ -171,7 +172,6 @@ The Streamlit interface presents:
                Dashboard Result
 ```
 
----
 
 # 🔄 End-to-End Workflow
 
@@ -208,9 +208,9 @@ Display Dashboard
 ```
 
 
-# 🧠 NLP / ML Methodology
+🧠 NLP / ML Methodology
 
-## 1. Resume Text Extraction
+ 1. Resume Text Extraction
 
 The uploaded PDF is processed to extract the textual content of the candidate's resume.
 
@@ -223,7 +223,7 @@ Resume Text
 ```
 
 
-## 2. Text Preprocessing
+ 2. Text Preprocessing
 
 The extracted text is normalized before further NLP processing.
 
@@ -242,7 +242,7 @@ Clean Text
 ```
 
 
-## 3. Skill Matching
+3. Skill Matching
 
 The system extracts skills from:
 
@@ -289,7 +289,7 @@ Power BI
 ```
 
 
-## 4. TF-IDF Similarity
+4. TF-IDF Similarity
 
 TF-IDF is used to convert resume and JD text into numerical representations.
 
@@ -307,9 +307,9 @@ JD Text
 TF-IDF Vector
 ```
 
----
 
-## 5. Semantic Similarity
+
+ 5. Semantic Similarity
 
 The project uses:
 
@@ -335,7 +335,7 @@ This helps compare the semantic meaning of resume and JD content rather than rel
 
 
 
-# 🎯 Hybrid Scoring
+ 🎯 Hybrid Scoring
 
 The project combines three matching signals.
 
@@ -362,7 +362,7 @@ Final Score =
 The resulting score is converted into a percentage from 0 to 100.
 
 
-# 📊 Model Evaluation
+ 📊 Model Evaluation
 
 The project includes an evaluation pipeline to measure how well the screening system classifies resume-JD matches.
 
@@ -373,7 +373,7 @@ The evaluation uses standard machine learning metrics:
 * Recall
 * F1 Score
 
-## Current Evaluation Result
+ # Current Evaluation Result :-
 
 The latest evaluation result for this project is:
 
@@ -384,7 +384,7 @@ The latest evaluation result for this project is:
 | **Recall**    |  **76.25%** |
 | **F1 Score**  |  **86.52%** |
 
-### Interpretation
+# Interpretation :-
 
 **81% Accuracy** means that 81% of the evaluated resume-JD classification decisions were correct.
 
@@ -422,8 +422,7 @@ However, the **model evaluation result reported for the project is 81% Accuracy,
 The threshold-optimization result should therefore be presented separately from the main model evaluation result.
 
 
-
-# 🛠️ Technology Stack
+ 🛠️ **Technology Stack**:
 
 ## Programming
 
