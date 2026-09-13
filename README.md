@@ -7,14 +7,12 @@ The project combines **Semantic Similarity, TF-IDF Similarity, and Skill Matchin
 Live Link : https://ai-resume-screening-system-8vyqqy3gpx8oabomxs2wve.streamlit.app/
 
 
-## 📌 Problem Statement
+# 📌 Problem Statement : 
 
-Recruiters spend significant time manually comparing resumes with job descriptions to identify suitable candidates.
-
-This project solves this problem by automatically analyzing a resume against a JD, calculating a match score, identifying matched and missing skills, and reducing manual resume screening effort.
+Recruiters spend significant time manually comparing resumes with job descriptions to identify suitable candidates. This project solves this problem by automatically analyzing a resume against a JD, calculating a match score, identifying matched and missing skills, and reducing manual resume screening effort.
 
 
-## 🎯 Project Objective
+## 🎯 Project Objective :-
 
 The main objective is to build an **AI-assisted resume screening system** that can:
 
@@ -60,7 +58,7 @@ The skill matching calculation measures the percentage of JD-required skills fou
 
 ### 🧠 Semantic Similarity
 
-The system uses the **Sentence Transformers `all-MiniLM-L6-v2` model** to generate sentence embeddings and calculate semantic similarity between the resume and JD.
+The system uses the **Sentence Transformers *`all-MiniLM-L6-v2`* model** to generate sentence embeddings and calculate semantic similarity between the resume and JD.
 
 ### 📊 TF-IDF Similarity
 
